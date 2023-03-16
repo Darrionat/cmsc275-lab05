@@ -4,22 +4,18 @@ Created on Wed Oct  2 12:48:28 2019
 
 @author: Kerri-Ann Norton
 """
-import math
-
-import stats_utils
-
-# -*- coding: utf-8 -*-
 """
 Created on Sat Feb  2 13:38:31 2019
 
 @author: Kerri Norton
 Hypothesis Testing (t-tests)
 """
-import numpy
-import pylab
+import stats_utils
+
+# -*- coding: utf-8 -*-
+
 from readcsv import load_data
 import random
-import scipy
 from scipy.stats import ttest_1samp
 
 
